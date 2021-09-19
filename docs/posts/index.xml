@@ -1,0 +1,24 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Hello Friend NG</title>
+        <link>https://glsc251.github.io/ramblings/posts/</link>
+        <description>Recent content in Posts on Hello Friend NG</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Sun, 19 Sep 2021 15:30:42 -0400</lastBuildDate>
+        <atom:link href="https://glsc251.github.io/ramblings/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Examplepost</title>
+            <link>https://glsc251.github.io/ramblings/posts/examplepost/</link>
+            <pubDate>Sun, 19 Sep 2021 15:30:42 -0400</pubDate>
+            
+            <guid>https://glsc251.github.io/ramblings/posts/examplepost/</guid>
+            <description>Markdown to html.</description>
+            <content type="html"><![CDATA[<p>Markdown to html.</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
