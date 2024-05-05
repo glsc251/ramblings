@@ -16,12 +16,5 @@
       <guid>https://glsc251.github.io/ramblings/posts/automatedlabnetwork/</guid>
       <description>A few weeks ago (March 20th) at the @RTPSUG meeting Phil Bossman presented on using AutomatedLab. I had wanted to give it a try in my home lab and until recently one of my lab machines was running a bare metal hypervisor that will remain nameless. It was time to change nameless. I loaded Proxmox and even tried XCP-NG. After watching Phils presentation I decided to load Hyper-V 2019 and give AutomatedLab a spin.</description>
     </item>
-    <item>
-      <title>Examplepost</title>
-      <link>https://glsc251.github.io/ramblings/posts/examplepost/</link>
-      <pubDate>Sun, 19 Sep 2021 15:30:42 -0400</pubDate>
-      <guid>https://glsc251.github.io/ramblings/posts/examplepost/</guid>
-      <description>Markdown to html.</description>
-    </item>
   </channel>
 </rss>
