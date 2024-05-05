@@ -1,7 +1,7 @@
 ---
 title: "AutomatedLab Networking With External Switch"
 date: 2024-05-04T14:57:39-04:00
-draft: false
+draft: true
 toc: false
 images:
 tags: 
