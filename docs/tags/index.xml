@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Greggs Tech Ramblings</title>
+    <title>Tags on Tech Ramblings</title>
     <link>https://glsc251.github.io/ramblings/tags/</link>
-    <description>Recent content in Tags on Greggs Tech Ramblings</description>
+    <description>Recent content in Tags on Tech Ramblings</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 19 Sep 2021 15:30:42 -0400</lastBuildDate>
+    <copyright>Copyright © 2021-2024, Gregg Lott; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 04 May 2024 14:57:39 -0400</lastBuildDate>
     <atom:link href="https://glsc251.github.io/ramblings/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>untagged</title>
-      <link>https://glsc251.github.io/ramblings/tags/untagged/</link>
-      <pubDate>Sun, 19 Sep 2021 15:30:42 -0400</pubDate>
-      <guid>https://glsc251.github.io/ramblings/tags/untagged/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>

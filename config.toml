@@ -1,53 +1,81 @@
-baseurl      = "https://glsc251.github.io/ramblings"
-title        = "My Blog"
-languageCode = "en-us"
-theme        = "hello-friend-ng"
-paginate     = 10
+baseURL = "https://glsc251.github.io/ramblings"
+# title = "Hugo Themes"
+author = "Gregg Lott"
+copyright = "Copyright © 2021-2024, Gregg Lott; all rights reserved."
+paginate = 3
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
+# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
+ignoreErrors = ["error-remote-getjson"]
 publishDir = "docs"
 
+# ------------------------------
+theme = "paper"
+title = "Tech Ramblings"
+
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04"
+  color = 'linen'
 
-  # Subtitle for home
-  homeSubtitle = "My ramblings in the tech world"
+  twitter = 'greggZ251'
+  github = 'glsc251'
+  instagram = ''
 
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = false
+  avatar = ''
+  name = ''
+  bio = ''
+# ------------------------------
 
-  # Enable sharing buttons, if you like
-  enableSharingButtons = true
+# needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+#  [markup.highlight]
+#    lineNos = true
 
-  # Metadata mostly used in document's head
-  description = "My blog"
-  keywords = "homepage, blog"
-  images = [""]
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 10
 
 [taxonomies]
-    category = "blog"
-    tag      = "tags"
-    series   = "series"
+category = "categories"
+tag = "tags"
+series = "series"
 
-[languages]
-  [languages.en]
-    title = "Greggs Tech Ramblings"
-    subtitle = "Musings of an old tech guy"
-    keywords = "Tech PowerShell"
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "Read other posts"
+[privacy]
 
-    [languages.en.params.logo]
-      logoText = "hello world"
-      logoHomeLink = "/ramblings"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
+  [privacy.vimeo]
+    disabled = false
+    simple = true
 
-  # And you can even create generic menu
-  [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "posts"
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
