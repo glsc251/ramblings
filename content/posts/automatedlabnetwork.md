@@ -101,6 +101,10 @@ Show-LabDeploymentSummary -Detailed
 
 ```
 
+In closing, it is a very useful tool to be able to rapidly deploy a lab and redeploy it over and over. No licensing was hurt as I used the evaluation software for all components.  
+You should note that deploying this network configuration at a work environment will likely get you a visit from your security team. I took the steps to change all the passwords to more secure ones. I can update the XML files to remove the lab when the time comes.
+
+
 ### Links
 
 General issues and networking  

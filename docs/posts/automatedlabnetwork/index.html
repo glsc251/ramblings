@@ -122,7 +122,7 @@
   <meta itemprop="name" content="AutomatedLab Networking With External Switch">
 <meta itemprop="description" content="A few weeks ago (March 20th) at the @RTPSUG meeting Phil Bossman presented on using AutomatedLab. I had wanted to give it a try in my home lab and until recently one of my lab machines was running a bare metal hypervisor that will remain nameless. It was time to change nameless. I loaded Proxmox and even tried XCP-NG. After watching Phils presentation I decided to load Hyper-V 2019 and give AutomatedLab a spin."><meta itemprop="datePublished" content="2024-05-10T16:17:00+00:00" />
 <meta itemprop="dateModified" content="2024-05-10T16:17:00+00:00" />
-<meta itemprop="wordCount" content="900">
+<meta itemprop="wordCount" content="984">
 <meta itemprop="keywords" content="AutomatedLab,Hyper-V,PowerShell," />
   
   <meta property="og:title" content="AutomatedLab Networking With External Switch" />
@@ -374,7 +374,9 @@ The networking here is also on an external switch but also includes VLAN ids. Th
 </span></span><span style="display:flex;"><span>Install-Lab -Verbose
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>Show-LabDeploymentSummary -Detailed
-</span></span></code></pre></div><h3 id="links">Links</h3>
+</span></span></code></pre></div><p>In closing, it is a very useful tool to be able to rapidly deploy a lab and redeploy it over and over. No licensing was hurt as I used the evaluation software for all components.<br>
+You should note that deploying this network configuration at a work environment will likely get you a visit from your security team. I took the steps to change all the passwords to more secure ones. I can update the XML files to remove the lab when the time comes.</p>
+<h3 id="links">Links</h3>
 <p>General issues and networking<br>
 <a href="https://github.com/AutomatedLab/AutomatedLab/issues/387">HyperV Network Definitions unable to use existing virtual swith connected to Wi-Fi adapter</a><br>
 <a href="https://automatedlab.org/en/latest/AutomatedLabDefinition/en-us/New-LabNetworkAdapterDefinition/">Docmentation on New-LabNetworkAdapter Definition</a><br>
