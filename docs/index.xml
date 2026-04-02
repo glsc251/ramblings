@@ -4,7 +4,7 @@
     <title>Tech Ramblings</title>
     <link>https://glsc251.github.io/ramblings/</link>
     <description>Recent content on Tech Ramblings</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright © 2021-2024, Gregg Lott; all rights reserved.</copyright>
     <lastBuildDate>Fri, 10 May 2024 16:17:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>https://glsc251.github.io/ramblings/posts/automatedlabnetwork/</link>
       <pubDate>Fri, 10 May 2024 16:17:00 +0000</pubDate>
       <guid>https://glsc251.github.io/ramblings/posts/automatedlabnetwork/</guid>
-      <description>A few weeks ago (March 20th) at the @RTPSUG meeting Phil Bossman presented on using AutomatedLab. I had wanted to give it a try in my home lab and until recently one of my lab machines was running a bare metal hypervisor that will remain nameless. It was time to change nameless. I loaded Proxmox and even tried XCP-NG. After watching Phils presentation I decided to load Hyper-V 2019 and give AutomatedLab a spin.</description>
+      <description>&lt;p&gt;A few weeks ago (March 20th) at the &lt;a href=&#34;https://twitter.com/RTPSug&#34;&gt;@RTPSUG&lt;/a&gt; meeting &lt;a href=&#34;https://twitter.com/Schlauge&#34;&gt;Phil Bossman&lt;/a&gt; presented on using AutomatedLab. I had wanted to give it a try in my home lab and&#xA;until recently one of my lab machines was running a bare metal hypervisor that will remain nameless. It was time to change nameless. I loaded Proxmox and even tried XCP-NG.&#xA;After watching Phils presentation I decided to load Hyper-V 2019 and give AutomatedLab a spin. A lot of the decision to change from Proxmox/XCP-NG had to do with automation.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

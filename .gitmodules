@@ -4,6 +4,7 @@
 [submodule "gruvhugo"]
 	path = gruvhugo
 	url = https://gitlab.com/avron/gruvhugo.git
-[submodule "themes/themes/paper"]
-	path = themes/themes/paper
+
+[submodule "themes/paper"]
+	path = themes/paper
 	url = https://github.com/nanxiaobei/hugo-paper

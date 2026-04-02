@@ -4,10 +4,31 @@
     <title>Tags on Tech Ramblings</title>
     <link>https://glsc251.github.io/ramblings/tags/</link>
     <description>Recent content in Tags on Tech Ramblings</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright © 2021-2024, Gregg Lott; all rights reserved.</copyright>
     <lastBuildDate>Fri, 10 May 2024 16:17:00 +0000</lastBuildDate>
     <atom:link href="https://glsc251.github.io/ramblings/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AutomatedLab</title>
+      <link>https://glsc251.github.io/ramblings/tags/automatedlab/</link>
+      <pubDate>Fri, 10 May 2024 16:17:00 +0000</pubDate>
+      <guid>https://glsc251.github.io/ramblings/tags/automatedlab/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hyper-V</title>
+      <link>https://glsc251.github.io/ramblings/tags/hyper-v/</link>
+      <pubDate>Fri, 10 May 2024 16:17:00 +0000</pubDate>
+      <guid>https://glsc251.github.io/ramblings/tags/hyper-v/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PowerShell</title>
+      <link>https://glsc251.github.io/ramblings/tags/powershell/</link>
+      <pubDate>Fri, 10 May 2024 16:17:00 +0000</pubDate>
+      <guid>https://glsc251.github.io/ramblings/tags/powershell/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

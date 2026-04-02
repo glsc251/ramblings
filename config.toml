@@ -2,7 +2,7 @@ baseURL = "https://glsc251.github.io/ramblings"
 # title = "Hugo Themes"
 author = "Gregg Lott"
 copyright = "Copyright © 2021-2024, Gregg Lott; all rights reserved."
-paginate = 3
+pagination.pagerSize = 3
 languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
@@ -59,7 +59,7 @@ series = "series"
     disabled = false
     simple = true
 
-  [privacy.twitter]
+  [privacy.x]
     disabled = false
     enableDNT = true
     simple = true
@@ -77,5 +77,5 @@ series = "series"
   [services.instagram]
     disableInlineCSS = true
 
-  [services.twitter]
+  [services.x]
     disableInlineCSS = true
